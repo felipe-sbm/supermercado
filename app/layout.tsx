@@ -14,13 +14,13 @@ export const metadata: Metadata = {
     default: 'Next.js Portfolio Starter',
     template: '%s | Next.js Portfolio Starter',
   },
-  description: 'This is my portfolio.',
+  description: 'Site do supermercado SuperCop.',
   openGraph: {
-    title: 'My Portfolio',
-    description: 'This is my portfolio.',
+    title: 'SuperCop',
+    description: 'Site do supermercado SuperCop.',
     url: baseUrl,
-    siteName: 'My Portfolio',
-    locale: 'en_US',
+    siteName: 'SuperCop Supermercados',
+    locale: 'pt_BR',
     type: 'website',
   },
   robots: {
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   },
 }
 
-const cx = (...classes) => classes.filter(Boolean).join(' ')
+const cx = (...classes: string[]) => classes.filter(Boolean).join(' ')
 
 export default function RootLayout({
   children,

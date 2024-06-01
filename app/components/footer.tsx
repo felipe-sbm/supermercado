@@ -1,3 +1,5 @@
+import { RadioTower, Instagram, Facebook } from 'lucide-react';
+
 function ArrowIcon() {
   return (
     <svg
@@ -12,7 +14,7 @@ function ArrowIcon() {
         fill="currentColor"
       />
     </svg>
-  )
+  );
 }
 
 export default function Footer() {
@@ -24,10 +26,10 @@ export default function Footer() {
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
             target="_blank"
-            href="/rss"
+            href="https://www.facebook.com/redesupercop/"
           >
-            <ArrowIcon />
-            <p className="ml-2 h-7">rss</p>
+            <Facebook />
+            <p className="ml-2 h-7">Facebook</p>
           </a>
         </li>
         <li>
@@ -35,10 +37,10 @@ export default function Footer() {
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://github.com/vercel/next.js"
+            href="https://www.instagram.com/redesupercop/"
           >
-            <ArrowIcon />
-            <p className="ml-2 h-7">github</p>
+            <Instagram />
+            <p className="ml-2 h-7">Instagram</p>
           </a>
         </li>
         <li>
@@ -46,10 +48,10 @@ export default function Footer() {
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://vercel.com/templates/next.js/portfolio-starter-kit"
+            href="https://player.xcast.com.br/player-moderno/10930/radiosupercoop///558498395263/"
           >
-            <ArrowIcon />
-            <p className="ml-2 h-7">view source</p>
+            <RadioTower />
+            <p className="ml-2 h-7">Radio SuperCop</p>
           </a>
         </li>
       </ul>
@@ -57,5 +59,5 @@ export default function Footer() {
         © {new Date().getFullYear()} MIT Licensed
       </p>
     </footer>
-  )
+  );
 }

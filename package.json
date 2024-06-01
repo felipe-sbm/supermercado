@@ -1,5 +1,19 @@
 {
   "private": true,
+  "name": "supercop-supermercados",
+  "description": "",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/felipe-sbm/supercop"
+  },
+  "keywords": [],
+  "author": "Felipe SBM",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/felipe-sbm/supercop/issues"
+  },
+  "homepage": "https://github.com/felipe-sbm/supercop",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -13,6 +27,7 @@
     "@vercel/analytics": "^1.1.3",
     "@vercel/speed-insights": "^1.0.9",
     "geist": "1.2.2",
+    "lucide-react": "^0.381.0",
     "next": "canary",
     "next-mdx-remote": "^4.4.1",
     "postcss": "^8.4.35",
