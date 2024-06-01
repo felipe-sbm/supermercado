@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "supercop-supermercados",
+  "name": "rede-supercop",
   "description": "",
   "version": "0.1.0",
   "repository": {
@@ -20,6 +20,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@headlessui/react": "^2.0.4",
     "@tailwindcss/postcss": "4.0.0-alpha.13",
     "@types/node": "20.11.17",
     "@types/react": "18.2.55",

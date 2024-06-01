@@ -1,4 +1,4 @@
-import { RadioTower, Instagram, Facebook } from 'lucide-react';
+import { RadioTower, Instagram, Facebook } from "lucide-react";
 
 function ArrowIcon() {
   return (
@@ -20,7 +20,17 @@ function ArrowIcon() {
 export default function Footer() {
   return (
     <footer className="mb-16">
+      <h4 className="mb-2 text-2xl font-semibold tracking-tighter">MISSÃO</h4>
+      <p className="mb-4">
+        {`Disponibilizar produtos e serviços de qualidade, com variedade,
+         excelência no atendimento e consciência de cooperação, higiene e
+         limpeza, respeitando os interesses dos consumidores, fornecedores,
+         colaboradores, gestores e órgãos governamentais.`}
+      </p>
       <ul className="font-sm mt-8 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
+        <li>
+          <h4>Siga-nos nas redes sociais:</h4>
+        </li>
         <li>
           <a
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
@@ -56,7 +66,10 @@ export default function Footer() {
         </li>
       </ul>
       <p className="mt-8 text-neutral-600 dark:text-neutral-300">
-        © {new Date().getFullYear()} MIT Licensed
+        © {new Date().getFullYear()} MIT Licensed by{" "}
+        <a href="https://github.com/spiral-sbm">
+          <strong>Spiral Inc.</strong>
+        </a>
       </p>
     </footer>
   );
