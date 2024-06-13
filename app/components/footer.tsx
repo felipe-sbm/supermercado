@@ -69,18 +69,18 @@ export default function Footer() {
               </form>
             </div>
 
-            <div className="col-span-2 sm:col-span-1">
-              <p className="font-medium text-gray-900 dark:text-white">
+            <div className="col-span-4 sm:col-span-1">
+              <p className="font-medium text-gray-900 col-start-2 dark:text-white">
                 Nosso site é seguro
               </p>
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
                   <a
-                    href="#"
+                    href="https://www.ssl.com/"
                     className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
                   >
-                    SSL Secured
+                    <img src="https://redeparaibasupermercados.com.br/wp-content/uploads/2020/08/certificado-170x50.png" alt="Certificado ssl secured" className="w-32  " />
                   </a>
                 </li>
               </ul>
@@ -128,7 +128,7 @@ export default function Footer() {
         <div className="mt-8 border-t border-gray-100 pt-8 dark:border-gray-800">
           <div className="sm:flex sm:justify-between">
             <p className="text-xs text-gray-500 dark:text-gray-400">
-              &copy;Todos os direitos reservados a SuperCop Supermercados 2024.
+              &copy;Todos os direitos reservados a SuperCop Supermercados 2024. Versão alternativa do site criada por: <a href="https://fsbm.vercel.app">Felipe SBM</a>
             </p>
           </div>
         </div>
