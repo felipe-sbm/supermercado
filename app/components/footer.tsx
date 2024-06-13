@@ -19,58 +19,120 @@ function ArrowIcon() {
 
 export default function Footer() {
   return (
-    <footer className="mb-16">
-      <h4 className="mb-2 text-2xl font-semibold tracking-tighter">MISSÃO</h4>
-      <p className="mb-4">
-        {`Disponibilizar produtos e serviços de qualidade, com variedade,
-         excelência no atendimento e consciência de cooperação, higiene e
-         limpeza, respeitando os interesses dos consumidores, fornecedores,
-         colaboradores, gestores e órgãos governamentais.`}
-      </p>
-      <ul className="font-sm mt-8 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
-        <li>
-          <h4>Siga-nos nas redes sociais:</h4>
-        </li>
-        <li>
-          <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://www.facebook.com/redesupercop/"
-          >
-            <Facebook />
-            <p className="ml-2 h-7">Facebook</p>
-          </a>
-        </li>
-        <li>
-          <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://www.instagram.com/redesupercop/"
-          >
-            <Instagram />
-            <p className="ml-2 h-7">Instagram</p>
-          </a>
-        </li>
-        <li>
-          <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://player.xcast.com.br/player-moderno/10930/radiosupercoop///558498395263/"
-          >
-            <RadioTower />
-            <p className="ml-2 h-7">Radio SuperCop</p>
-          </a>
-        </li>
-      </ul>
-      <p className="mt-8 text-neutral-600 dark:text-neutral-300">
-        © {new Date().getFullYear()} MIT Licensed by{" "}
-        <a href="https://github.com/spiral-sbm">
-          <strong>Spiral Inc.</strong>
-        </a>
-      </p>
+    <footer className="bg-white dark:bg-gray-900">
+      <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+        <div className="lg:flex lg:items-start lg:gap-8">
+          <div className="text-teal-600 dark:text-teal-300">
+            <img
+              className="h-auto w-auto"
+              src="https://redesupercop.com.br/wp-content/themes/twentytwentyone/img/super-cop-logo.png"
+              alt="Logo do SuperCop Supermercados"
+            />
+          </div>
+
+          <div className="mt-8 grid grid-cols-2 gap-8 lg:mt-0 lg:grid-cols-5 lg:gap-y-16">
+            <div className="col-span-2">
+              <div>
+                <h2 className="text-2xl font-bold text-gray-900 dark:text-white">
+                  Cadastre seu e-mail e receba ofertas imperdíveis.
+                </h2>
+
+                <p className="mt-4 text-gray-500 dark:text-gray-400">
+                  Disponibilizar produtos e serviços de qualidade, com
+                  variedade, excelência no atendimento e consciência de
+                  cooperação, higiene e limpeza, respeitando os interesses dos
+                  consumidores, fornecedores, colaboradores, gestores e órgãos
+                  governamentais.
+                </p>
+              </div>
+            </div>
+
+            <div className="col-span-2 lg:col-span-3 lg:flex lg:items-end">
+              <form className="w-full">
+                <label htmlFor="UserEmail" className="sr-only">
+                  {" "}
+                  Email{" "}
+                </label>
+
+                <div className="border border-gray-100 p-2 focus-within:ring sm:flex sm:items-center sm:gap-4 dark:border-gray-800 shadow">
+                  <input
+                    type="email"
+                    id="UserEmail"
+                    placeholder="seu@email.com"
+                    className="w-full border-none focus:border-transparent focus:ring-transparent sm:text-sm dark:bg-gray-900 dark:text-white"
+                  />
+
+                  <button className="mt-1 w-full bg-red-600 px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition-none hover:bg-yellow-300 sm:mt-0 sm:w-auto sm:shrink-0 shadow">
+                    Enviar
+                  </button>
+                </div>
+              </form>
+            </div>
+
+            <div className="col-span-2 sm:col-span-1">
+              <p className="font-medium text-gray-900 dark:text-white">
+                Nosso site é seguro
+              </p>
+
+              <ul className="mt-6 space-y-4 text-sm">
+                <li>
+                  <a
+                    href="#"
+                    className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
+                  >
+                    SSL Secured
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <ul className="col-span-2 flex justify-start gap-6 lg:col-span-5 lg:justify-end">
+              <li>
+                <a
+                  href="https://www.facebook.com/redesupercop"
+                  rel="noreferrer"
+                  className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
+                >
+                  <span className="sr-only">Facebook</span>
+                  <Facebook />
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="https://www.instagram.com/redesupercop/"
+                  rel="noreferrer"
+                  className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
+                >
+                  <span className="sr-only">Instagram</span>
+
+                  <Instagram />
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="https://player.xcast.com.br/player-moderno/10930/radiosupercoop///558498395263/"
+                  rel="noreferrer"
+                  className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
+                >
+                  <span className="sr-only">Radio SuperCop</span>
+
+                  <RadioTower />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="mt-8 border-t border-gray-100 pt-8 dark:border-gray-800">
+          <div className="sm:flex sm:justify-between">
+            <p className="text-xs text-gray-500 dark:text-gray-400">
+              &copy;Todos os direitos reservados a SuperCop Supermercados 2024.
+            </p>
+          </div>
+        </div>
+      </div>
     </footer>
   );
 }

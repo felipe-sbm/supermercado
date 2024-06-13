@@ -22,7 +22,7 @@ export function Navbar() {
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
+          <a href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">SuperCop</span>
             <img
               className="h-20 w-auto"
@@ -42,19 +42,31 @@ export function Navbar() {
           </button>
         </div>
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <a href="/" className="text-sm font-semibold leading-6 text-gray-900">
             INÍCIO
           </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <a
+            href="/blog/lojas"
+            className="text-sm font-semibold leading-6 text-gray-900"
+          >
             NOSSAS LOJAS
           </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <a
+            href="/blog/encarte"
+            className="text-sm font-semibold leading-6 text-gray-900"
+          >
             ENCARTE
           </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <a
+            href="/blog/supermomentos"
+            className="text-sm font-semibold leading-6 text-gray-900"
+          >
             SUPERMOMENTOS
           </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <a
+            href="/blog/trabalhe"
+            className="text-sm font-semibold leading-6 text-gray-900"
+          >
             TRABALHE CONOSCO
           </a>
         </PopoverGroup>
