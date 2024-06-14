@@ -11,8 +11,8 @@ import { baseUrl } from './sitemap'
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: 'Rede SuperCops',
-    template: '%s | Next.js Portfolio Starter',
+    default: 'Rede SuperCop',
+    template: '%s | A Rede que é super em tudo que faz!',
   },
   description: 'Site do supermercado SuperCop.',
   openGraph: {
