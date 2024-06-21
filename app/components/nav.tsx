@@ -61,7 +61,7 @@ export function Navbar() {
             href="/categorias/supermomentos"
             className="text-sm font-semibold leading-6 text-gray-900 dark:text-white"
           >
-            SUPERMOMENTOS
+            PROMOÇÕES
           </a>
           <a
             href="/categorias/trabalhe"
@@ -127,7 +127,7 @@ export function Navbar() {
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 dark:text-white"
                 >
-                  <BadgePlus /> Supermomentos
+                  <BadgePlus /> Promoções
                 </a>
                 <a
                   href="#"

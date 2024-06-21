@@ -130,7 +130,7 @@ export default function Footer() {
                   rel="noreferrer"
                   className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
                 >
-                  <span className="sr-only">Radio SuperCop</span>
+                  <span className="sr-only">Radio do <SuperMercado></SuperMercado></span>
 
                   <RadioTower />
                 </a>
