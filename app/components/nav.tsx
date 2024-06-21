@@ -16,10 +16,10 @@ export function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white dark:bg-gray-900">
+    <header className="bg-white dark:bg-gray-900 w-screen">
       <nav
         className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
-        aria-label="Global"
+        aria-label="Global" 
       >
         <div className="flex lg:flex-1">
           <a href="/" className="-m-1.5 p-1.5">
@@ -27,7 +27,7 @@ export function Navbar() {
             <img
               className="h-20 w-auto invert hover:opacity-75 dark:invert-0"
               src="https://raw.githubusercontent.com/felipe-sbm/supermercado/main/public/super-mercado.png"
-              alt="Logo do SuperCop Supermercados"
+              alt="Logo dos Spiral Supermercados"
             />
           </a>
         </div>
@@ -86,11 +86,11 @@ export function Navbar() {
         <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 dark:bg-gray-900">
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">SuperCop</span>
+              <span className="sr-only">Supermercado</span>
               <img
                 className="h-8 w-auto"
-                src="https://redesupercop.com.br/wp-content/themes/twentytwentyone/img/super-cop-logo.png"
-                alt=""
+                src="https://raw.githubusercontent.com/felipe-sbm/supermercado/main/public/logo.png"
+                alt="logo dos Spiral Supermercados"
               />
             </a>
             <button
