@@ -46,31 +46,31 @@ export function Navbar() {
             INÍCIO
           </a>
           <a
-            href="/blog/lojas"
+            href="/categorias/lojas"
             className="text-sm font-semibold leading-6 text-gray-900 dark:text-white"
           >
             NOSSAS LOJAS
           </a>
           <a
-            href="/blog/encarte"
+            href="/categorias/encarte"
             className="text-sm font-semibold leading-6 text-gray-900 dark:text-white"
           >
             ENCARTE
           </a>
           <a
-            href="/blog/supermomentos"
+            href="/categorias/supermomentos"
             className="text-sm font-semibold leading-6 text-gray-900 dark:text-white"
           >
             SUPERMOMENTOS
           </a>
           <a
-            href="/blog/trabalhe"
+            href="/categorias/trabalhe"
             className="text-sm font-semibold leading-6 text-gray-900 dark:text-white"
           >
             TRABALHE CONOSCO
           </a>
           <a
-            href="/blog/trabalhe"
+            href="/categorias/trabalhe"
             className="text-sm font-semibold leading-6 text-gray-900 dark:text-white"
           >
             CONTATO
