@@ -11,15 +11,15 @@ import { baseUrl } from './sitemap'
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: 'Rede SuperCop',
-    template: '%s | A Rede que é super em tudo que faz!',
+    default: 'Supermercado',
+    template: '%s | Sendo espiral do jeito certo.',
   },
-  description: 'Site do supermercado SuperCop.',
+  description: 'Site do supermercado.',
   openGraph: {
-    title: 'SuperCop',
-    description: 'Site do supermercado SuperCop.',
+    title: 'Supermercado',
+    description: 'Site do supermercado.',
     url: baseUrl,
-    siteName: 'SuperCop Supermercados',
+    siteName: 'Spiral Supermercados',
     locale: 'pt_BR',
     type: 'website',
   },

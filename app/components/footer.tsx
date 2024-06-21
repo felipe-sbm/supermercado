@@ -24,9 +24,9 @@ export default function Footer() {
         <div className="lg:flex lg:items-start lg:gap-8">
           <div className="text-teal-600 dark:text-teal-300">
             <img
-              className="w-16 lg:w-40"
-              src="https://redesupercop.com.br/wp-content/themes/twentytwentyone/img/super-cop-logo.png"
-              alt="Logo do SuperCop Supermercados"
+              className="w-16 lg:w-40 invert dark:invert-0"
+              src="https://raw.githubusercontent.com/felipe-sbm/supermercado/main/public/logo.png"
+              alt="Logo do Supermercado spiral"
             />
           </div>
 
@@ -54,7 +54,7 @@ export default function Footer() {
                     className="w-full lg:ml-4 border-none focus:border-transparent focus:ring-transparent sm:text-sm dark:bg-gray-900 dark:text-white max-md:m-4 "
                   />
 
-                  <button className="mt-1 w-full bg-red-600 px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition-none hover:bg-yellow-300 sm:mt-0 sm:w-auto sm:shrink-0 shadow">
+                  <button className="mt-1 w-full bg-fuchsia-600 px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition-none hover:bg-fuchsia-800 sm:mt-0 sm:w-auto sm:shrink-0 shadow dark:text-black">
                     Enviar
                   </button>
                 </div>
@@ -69,11 +69,12 @@ export default function Footer() {
               <ul className="mt-3 space-y-4 text-sm">
                 <li>
                   <p className="mb-6 text-gray-500 dark:text-gray-400">
-                    Disponibilizar produtos e serviços de qualidade, com
-                    variedade, excelência no atendimento e consciência de
-                    cooperação, higiene e limpeza, respeitando os interesses dos
-                    consumidores, fornecedores, colaboradores, gestores e órgãos
-                    governamentais.
+                    Fazer os fregueses se sentirem em um bom ambiente,
+                    oferecendo produtos acessíveis mas que sejam de qualidade.
+                    Atendendo todos os tipos de pessoas, sem ter discriminação
+                    de raça, cor, gênero ou até mesmo de classe social. Estamos
+                    prontos para te deixar satisfeito, por que não experimentar
+                    nosso serviço? Venha para os Supermercados Spiral!
                   </p>
                 </li>
               </ul>
@@ -90,7 +91,7 @@ export default function Footer() {
                     className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
                   >
                     <img
-                      src="https://redeparaibasupermercados.com.br/wp-content/uploads/2020/08/certificado-170x50.png"
+                      src="https://ee2cc1f8.rocketcdn.me/wp-content/uploads/2023/10/bage-trusted-secure-min.png"
                       alt="Certificado ssl secured"
                       className="w-32  "
                     />
@@ -100,10 +101,12 @@ export default function Footer() {
             </div>
 
             <ul className="col-span-2 flex justify-start gap-6 lg:col-span-5 lg:justify-end max-md:mt-9">
-              <li className="sm:hidden text-sm">Siga-nos nas redes sociais: </li>
+              <li className="sm:hidden text-sm">
+                Siga-nos nas redes sociais:{" "}
+              </li>
               <li>
                 <a
-                  href="https://www.facebook.com/redesupercop"
+                  href="https://www.facebook.com/"
                   rel="noreferrer"
                   className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
                 >
@@ -114,7 +117,7 @@ export default function Footer() {
 
               <li>
                 <a
-                  href="https://www.instagram.com/redesupercop/"
+                  href="https://www.instagram.com/felipe_sbm/"
                   rel="noreferrer"
                   className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
                 >
@@ -126,11 +129,11 @@ export default function Footer() {
 
               <li>
                 <a
-                  href="https://player.xcast.com.br/player-moderno/10930/radiosupercoop///558498395263/"
+                  href="https://soundcloud.com/felipe_sbm"
                   rel="noreferrer"
                   className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
                 >
-                  <span className="sr-only">Radio do <SuperMercado></SuperMercado></span>
+                  <span className="sr-only">Radio do Supermercado</span>
 
                   <RadioTower />
                 </a>
@@ -142,8 +145,8 @@ export default function Footer() {
         <div className="mt-8 border-t border-gray-100 pt-8 dark:border-gray-800">
           <div className="sm:flex sm:justify-between">
             <p className="text-xs text-gray-500 dark:text-gray-400">
-              &copy;Todos os direitos reservados a SuperCop Supermercados 2024.
-              Versão alternativa do site criada por:{" "}
+              &copy;Todos os direitos reservados a Spiral 2024.
+              Website criado por:{" "}
               <a href="https://fsbm.vercel.app">Felipe SBM</a>
             </p>
           </div>

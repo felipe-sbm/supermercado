@@ -1,19 +1,19 @@
 {
   "private": true,
-  "name": "rede-supercop",
-  "description": "Um protótipo feito para um supermercado.",
+  "name": "supermercado-spiral",
+  "description": "Um protótipo feito para um supermercado qualquer.",
   "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/felipe-sbm/supercop.git"
+    "url": "git+https://github.com/felipe-sbm/supermercado.git"
   },
   "keywords": [],
   "author": "Felipe SBM",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/felipe-sbm/supercop/issues"
+    "url": "https://github.com/felipe-sbm/supermercado/issues"
   },
-  "homepage": "https://github.com/felipe-sbm/supercop",
+  "homepage": "https://github.com/felipe-sbm/supermercado",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
