@@ -31,6 +31,7 @@
     "lucide-react": "^0.381.0",
     "next": "canary",
     "next-mdx-remote": "^4.4.1",
+    "pnpm": "^9.4.0",
     "postcss": "^8.4.35",
     "react": "18.2.0",
     "react-dom": "18.2.0",
