@@ -25,7 +25,7 @@ export function Navbar() {
           <a href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">SuperCop</span>
             <img
-              className="h-20 w-auto invert dark:invert-0"
+              className="h-20 w-auto invert hover:opacity-75 dark:invert-0"
               src="https://raw.githubusercontent.com/felipe-sbm/supermercado/main/public/super-mercado.png"
               alt="Logo do SuperCop Supermercados"
             />

@@ -147,7 +147,7 @@ export default function Footer() {
             <p className="text-xs text-gray-500 dark:text-gray-400">
               &copy;Todos os direitos reservados a Spiral 2024.
               Website criado por:{" "}
-              <a href="https://fsbm.vercel.app">Felipe SBM</a>
+              <a href="https://fsbm.vercel.app" className="hover:opacity-75">Felipe SBM</a>
             </p>
           </div>
         </div>
